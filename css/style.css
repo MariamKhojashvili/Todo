@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1fc8db;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+h1{
+    color:#0b0a78;
+    font-size: 8rem;
+    text-align: center;
+    opacity: 0.4;
+}
+form{
+    /* margin: auto; */
+    max-width: 100%;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.inputClass{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Marck Script', cursive;
+    color: #41acc4;
+    text-align: center;
+
+
+   
+}
+
+.inputClass::placeholder{
+    color: #b5f5f1;
+    text-align: center;
+    
+}
+
+.todos{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.todos li{
+    border-top: 1px solid #e5e5e5;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: #41acc4;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+.todos li.completed{
+    text-decoration: line-through;
+    color: #C0C0C0;
+    opacity: 0.6;
+}
+
+small{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+    color: #0b0a78;
+    opacity: 0.5;
+    text-align: center;
+}
