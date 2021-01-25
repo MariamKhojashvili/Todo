@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registracionStyles.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul class="navbar">
+            <li>
+                <a href="/todoList.html">todoList </a>
+            </li>
+            <li>
+                <a href="/server.html">info from server</a>
+            </li>
+            <li>
+                <a href="/index.html">Create Todo</a>
+            </li>
+            </ul>
+    </nav>
+    <form action="submit" id="form">
+        <label id="emailLabel" for="email">Email</label>
+        <input type="email" name="email" id="emailInput" placeholder="john@doe.com">
+        <label for="password" id="passwordLabel">Password</label>
+        <input type="password" name="password" id="passwordInput" placeholder="********">
+        <label for="confirmPassword" id="confirmPasswordLavel">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPasswordInput" placeholder="********">
+        <button type="submit" id="submitButton">Sign Up</button>
+    </form>
+    <div id="errorDiv"></div>
+    <div id="successDiv"></div>
+
+    <script src="js/registration.js"></script>
+</body>
+</html>

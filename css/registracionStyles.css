@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    vertical-align: center;
+    margin-top: 50px;
+    max-width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color:#47443b;
+    text-transform: uppercase;
+}
+body{
+    background-color: #fc7303;
+    color: #FFFFFF;
+}
+label{
+    display: block;
+    margin-bottom: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    display: block;
+    margin-top: 150px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 97%;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 0;
+}
+input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+
+}
+button{
+    width: 100%;
+    height:  42px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+}
+
+#errorDiv{
+    text-align: center;
+    color: rgb(0, 204, 255);
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
